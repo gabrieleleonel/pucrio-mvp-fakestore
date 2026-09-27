@@ -63,8 +63,8 @@ _Nota: Certifique-se de que o back-end (`FakeStore-backend`) esteja rodando em `
 ### 2. Via Docker
 
 ```bash
-docker build -t FakeStore-frontend --build-arg VITE_API_URL=http://localhost:8000 .
-docker run -p 5173:80 FakeStore-frontend
+docker build -t fakestore-frontend --build-arg VITE_API_URL=http://localhost:8000 .
+docker run -p 5173:80 fakestore-frontend
 
 ```
 
